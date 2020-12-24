@@ -1,19 +1,19 @@
-# 07-System Hacking
+# 06-Evasion
 
 ## Table of Contents
 
-* [Evasion](05_sniffing.md#evasion)
-  * [IDS \(Intrusion Detection System\)](05_sniffing.md#ids-intrusion-detection-system)
-    * [Types of IDS](05_sniffing.md#types-of-ids)
-    * [Types of Alerts](05_sniffing.md#types-of-alerts)
-  * [IPS \(Intrusion Prevention System\)](05_sniffing.md#ips-intrusion-prevention-system)
-    * [Types of IPS](05_sniffing.md#types-of-ips)
-  * [Firewall](05_sniffing.md#firewall)
-    * [Firewall Technologies](05_sniffing.md#firewall-technologies)
-    * [Types of Firewall](05_sniffing.md#types-of-firewall)
-  * [Honeypot](05_sniffing.md#honeypot)
-  * [Evasion Techniques](05_sniffing.md#evasion-techniques)
-    * [Firewall Evasion](05_sniffing.md#firewall-evasion)
+* [Evasion](06_evasion.md#evasion)
+  * [IDS \(Intrusion Detection System\)](06_evasion.md#ids-intrusion-detection-system)
+    * [Types of IDS](06_evasion.md#ids-intrusion-detection-system)
+    * [Types of Alerts](06_evasion.md#ids-intrusion-detection-system)
+  * [IPS \(Intrusion Prevention System\)](06_evasion.md#ips-intrusion-prevention-system)
+    * [Types of IPS](06_evasion.md#ips-intrusion-prevention-system)
+  * [Firewall](06_evasion.md#firewall)
+    * [Firewall Technologies](06_evasion.md#ips-intrusion-prevention-system)
+    * [Types of Firewall](06_evasion.md#firewall)
+  * [Honeypot](06_evasion.md#honeypot)
+  * [Evasion Techniques](06_evasion.md#evasion-techniques)
+    * [Firewall Evasion](06_evasion.md#evasion-techniques)
 
 
 
