@@ -1,12 +1,10 @@
 # CEHv10 Study Guide++
 
-![](https://github.githubassets.com/images/icons/emoji/unicode/1f4d3.png) Forked [CEHv10StudyGuide](https://github.com/scottymcraig/CEHv10StudyGuide)
+![](https://github.githubassets.com/images/icons/emoji/unicode/1f4d3.png) Forked from [CEHv10StudyGuide](https://github.com/karsyboy/CEHv10_Ultimate_Study_Guide) 
 
-![](https://github.githubassets.com/images/icons/emoji/unicode/2795.png) Many updates corresponding to CEHv10 courseware
+\#Other sources 
 
-![](https://github.githubassets.com/images/icons/emoji/unicode/2795.png) My personal study notes
-
-= CEHv10 Study Guide ![](https://github.githubassets.com/images/icons/emoji/unicode/2795.png)![](https://github.githubassets.com/images/icons/emoji/unicode/2795.png)
+\[CEHv10\_Ultimate\_Study\_Guide\]\([https://karsyboy.github.io/CEHv10\_Ultimate\_Study\_Guide/](https://karsyboy.github.io/CEHv10_Ultimate_Study_Guide/)\)
 
 | CHAPTER | NAME | LINK |
 | :--- | :--- | :--- |
@@ -23,6 +21,7 @@
 | 11 | Cryptography | [![](https://github.githubassets.com/images/icons/emoji/unicode/1f517.png)](11-cryptography.md) |
 | 12 | Social Engineering | [![](https://github.githubassets.com/images/icons/emoji/unicode/1f517.png)](12-social_engineering.md) |
 | 13 | Pen Testing | [![](https://github.githubassets.com/images/icons/emoji/unicode/1f517.png)](13-pen_testing.md) |
+| 14 |  |  |
 
 Read it on GitBook: [https://kevcui.gitbook.io/cehv10studyguideplusplus](https://kevcui.gitbook.io/cehv10studyguideplusplus)
 
