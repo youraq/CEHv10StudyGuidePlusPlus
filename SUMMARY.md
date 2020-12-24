@@ -10,7 +10,7 @@
 * [07-System Hacking](07_system_hacking.md)
 * [08-Web Server and Web Application Hacking](08_web_server_and_web_application_hacking.md)
 * [09-SQL Injection](09_sql_injection.md)
-* [10-DOS](10_dos.md)
+* [10-DoS](10_dos.md)
 * [11-Session Hijacking](11_session-hijacking.md)
 * [12-Security in Cloud Computing](12_security_in_cloud_computing.md)
 * [13-Wireless Network Hacking](13_wireless_network_hacking.md)

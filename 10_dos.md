@@ -1,4 +1,4 @@
-# 10-DOS
+# 10-DoS
 
 ### DoS \(Denial of Service\) Attacks
 
