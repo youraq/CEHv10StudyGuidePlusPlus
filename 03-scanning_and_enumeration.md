@@ -2,43 +2,31 @@
 
 ## Table of Contents
 
-* [Scanning and Enumeration](03-scanning_and_enumeration.md#scanning-and-enumeration)
-  * [Scanning](03-scanning_and_enumeration.md#scanning)
-    * [Data transition methods](03-scanning_and_enumeration.md#data-transition-methods)
-    * [Scanning Methodology](03-scanning_and_enumeration.md#scanning-methodology)
-    * [TCP/IP \(Transmission Control Protocol/Internet Protocol\)](03-scanning_and_enumeration.md#tcpip-transmission-control-protocolinternet-protocol)
-      * [TCP Flags](03-scanning_and_enumeration.md#tcp-flags)
-      * [TCP Handshake](03-scanning_and_enumeration.md#tcp-handshake)
-      * [Port Numbers](03-scanning_and_enumeration.md#port-numbers)
-      * [Subnetting](03-scanning_and_enumeration.md#subnetting)
-    * [ICMP \(Internet Control Message Protocol\)](03-scanning_and_enumeration.md#icmp-internet-control-message-protocol)
-      * [Message Types](03-scanning_and_enumeration.md#message-types)
-      * [Ping scanning tools](03-scanning_and_enumeration.md#ping-scanning-tools)
-    * [Vulnerability Scanning](03-scanning_and_enumeration.md#vulnerability-scanning)
-  * [Enumeration](03-scanning_and_enumeration.md#enumeration)
-    * [NetBIOS \(Network Basic Input/Output System\) Enumeration](03-scanning_and_enumeration.md#netbios-network-basic-inputoutput-system-enumeration)
-      * [NetBIOS code and meaning](03-scanning_and_enumeration.md#netbios-code-and-meaning)
-    * [SNMP \(Simple Network Management Protocol\) Enumeration](03-scanning_and_enumeration.md#snmp-simple-network-management-protocol-enumeration)
-    * [SMTP \(Simple Mail Transfer Protocol\) Enumeration](03-scanning_and_enumeration.md#smtp-simple-mail-transfer-protocol-enumeration)
-    * [NTP \(Network Time Protocol\) Enumeration](03-scanning_and_enumeration.md#ntp-network-time-protocol-enumeration)
-    * [LDAP \(Lightweight Directory Access Protocol\) Enumeration](03-scanning_and_enumeration.md#ldap-lightweight-directory-access-protocol-enumeration)
-    * [NFS \(Network File System\) Enumeration](03-scanning_and_enumeration.md#nfs-network-file-system-enumeration)
-    * [SMB \(Server Message Block\) Enumeration](03-scanning_and_enumeration.md#smb-server-message-block-enumeration)
-  * [Nmap](03-scanning_and_enumeration.md#nmap)
-    * [Full connect scan](03-scanning_and_enumeration.md#full-connect-scan)
-    * [TCP SYN scan \(Stealth scan\)](03-scanning_and_enumeration.md#tcp-syn-scan-stealth-scan)
-      * [Responses to Full and SYN scan probe](03-scanning_and_enumeration.md#responses-to-full-and-syn-scan-probe)
-    * [Inverse TCP flag scan \(FIN, URG and PSH scanning\)](03-scanning_and_enumeration.md#inverse-tcp-flag-scan-fin-urg-and-psh-scanning)
-    * [NULL scan](03-scanning_and_enumeration.md#null-scan)
-    * [Xmas scan](03-scanning_and_enumeration.md#xmas-scan)
-      * [Responses to NULL, FIN, or Xmas scan](03-scanning_and_enumeration.md#responses-to-null-fin-or-xmas-scan)
-    * [TCP ACK scan](03-scanning_and_enumeration.md#tcp-ack-scan)
-    * [IDLE Scan](03-scanning_and_enumeration.md#idle-scan)
-    * [Nmap Switches](03-scanning_and_enumeration.md#nmap-switches)
-  * [hping](03-scanning_and_enumeration.md#hping)
-    * [hping switch and description](03-scanning_and_enumeration.md#hping-switch-and-description)
-
-## Scanning and Enumeration
+* [Scanning](03-scanning_and_enumeration.md#scanning)
+  * [Data transition methods](03-scanning_and_enumeration.md#data-transition-methods)
+  * [Scanning Methodology](03-scanning_and_enumeration.md#scanning-methodology)
+  * [TCP/IP \(Transmission Control Protocol/Internet Protocol\)](03-scanning_and_enumeration.md#tcpip-transmission-control-protocolinternet-protocol)
+    * [TCP Flags](03-scanning_and_enumeration.md#tcp-flags)
+    * [TCP Handshake](03-scanning_and_enumeration.md#tcp-handshake)
+    * [Port Numbers](03-scanning_and_enumeration.md#port-numbers)
+    * [Subnetting](03-scanning_and_enumeration.md#subnetting)
+  * [ICMP \(Internet Control Message Protocol\)](03-scanning_and_enumeration.md#icmp-internet-control-message-protocol)
+    * [Message Types](03-scanning_and_enumeration.md#message-types)
+    * [Ping scanning tools](03-scanning_and_enumeration.md#ping-scanning-tools)
+  * [Vulnerability Scanning](03-scanning_and_enumeration.md#vulnerability-scanning)
+* [Nmap](03-scanning_and_enumeration.md#nmap)
+  * [Full connect scan](03-scanning_and_enumeration.md#full-connect-scan)
+  * [TCP SYN scan \(Stealth scan\)](03-scanning_and_enumeration.md#tcp-syn-scan-stealth-scan)
+    * [Responses to Full and SYN scan probe](03-scanning_and_enumeration.md#responses-to-full-and-syn-scan-probe)
+  * [Inverse TCP flag scan \(FIN, URG and PSH scanning\)](03-scanning_and_enumeration.md#inverse-tcp-flag-scan-fin-urg-and-psh-scanning)
+  * [NULL scan](03-scanning_and_enumeration.md#null-scan)
+  * [Xmas scan](03-scanning_and_enumeration.md#xmas-scan)
+    * [Responses to NULL, FIN, or Xmas scan](03-scanning_and_enumeration.md#responses-to-null-fin-or-xmas-scan)
+  * [TCP ACK scan](03-scanning_and_enumeration.md#tcp-ack-scan)
+  * [IDLE Scan](03-scanning_and_enumeration.md#idle-scan)
+  * [Nmap Switches](03-scanning_and_enumeration.md#nmap-switches)
+* [hping](03-scanning_and_enumeration.md#hping)
+  * [hping switch and description](03-scanning_and_enumeration.md#hping-switch-and-description)
 
 ### Scanning
 
@@ -305,101 +293,6 @@ UAPRSF
   * Qualys
   * FreeScan - best known for testing websites and applications
   * OpenVAS - best competitor to Nessus and is free
-
-### Enumeration
-
-* Listing the items that are found within a specific target
-* Always active by nature
-
-#### NetBIOS \(Network Basic Input/Output System\) Enumeration
-
-* NetBIOS provides name servicing, connectionless communication and some Session layer stuff
-* NetBIOS is the browser service in Windows designed to host information about all machines within domain or TCP/IP network segment
-* NetBIOS name is a **16-character ASCII string** used to identify devices Of those 16 characters, 15 are used for the device name, and the remaining character is reserved for the service name or name record type
-* NetBIOS name resolution doesn't work on IPv6
-* nbtstat \(on Windows\)
-  * Local table: `nbtstat -n`
-  * Remote information: `nbtstat -A <IPADDRESS>`
-  * Cache information: `netstat -c`
-* Other Tools
-  * SuperScan
-  * Hyena
-  * NetBIOS Enumerator
-  * NSAuditor
-
-**NetBIOS code and meaning**
-
-| Code | Type | Meaning |
-| :--- | :--- | :--- |
-|  | UNIQUE | Hostname |
-|  | GROUP | Domain name |
-|  | UNIQUE | Windows Messenger service |
-|  | UNIQUE | Domain master browser |
-|  | GROUP | Domain controller |
-|  | UNIQUE | Master browser for subnet |
-|  | UNIQUE | File Service |
-
-#### SNMP \(Simple Network Management Protocol\) Enumeration
-
-* Used for network device management and uses both an agent and a manager to ensure logging and control
-  * Agents are embedded in every network device
-  * Manager is installed on a separate computer
-* There is a read-only and a read-write version
-  * Default read-only string is **public**
-  * Default read-write string is **private**
-* SNMP uses **community strings** which function as passwords, sent in cleartext unless using SNMP v3
-* **Management Information Base** \(MIB\): database that stores information, it uses ASN.1 \(Abstract Syntax Notation One\)
-* **Object Identifiers** \(OID\): identifiers for information stored in MIB
-* **SNMP GET**: getting information about the system
-* **SNMP SET**: setting information about the system
-* **Types of objects**
-  * **Scalar**: single object
-  * **Tabular**: multiple related objects that can be grouped together
-* Tools
-  * Engineer's Toolset
-  * SNMPScanner
-  * OpUtils 5: includes SNMP tools
-  * SNScan
-
-#### SMTP \(Simple Mail Transfer Protocol\) Enumeration
-
-* VRFY: verifying email addresses; code 200 success, code 550 failure
-* EXPN: providing actual delivery address of mailing list and aliases
-* RCPT TO: defining recipients
-
-#### NTP \(Network Time Protocol\) Enumeration
-
-* Querying can give you list of systems connected to the server name and IP
-* Tools
-  * NTP Server Scanner
-  * AtomSync
-* Commands
-  * ntptrace
-  * ntpdc
-  * ntpq
-
-#### LDAP \(Lightweight Directory Access Protocol\) Enumeration
-
-* Connecting on 389 to a Directory System Agent \(DSA\)
-* Returning information such as valid user names, domain information, addresses, telephone numbers, system data, organization structure and other items, interface with Active Directory \(AD\)
-* Tools
-  * Softerra
-  * JXplorer
-  * Lex \(The LDAP Explorer\)
-  * LDAP Admin Tool
-
-#### NFS \(Network File System\) Enumeration
-
-*  NFS  is a protocol allowing remote access to a filesystem through the network. All Unix systems can work with this protocol.
-* Port 111 and 2049
-* showmount -e &lt;IPaddress&gt;
-  * Show the accessible NFS shares
-
-#### SMB \(Server Message Block\) Enumeration
-
-* Tools :
-  * smbclient
-  * smbmap
 
 ### Nmap
 

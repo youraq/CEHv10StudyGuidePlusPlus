@@ -4,6 +4,7 @@
 * [01-Essential Knowledge](01-essential_knowledge.md)
 * [02-Reconnaissance and Footprinting](02-reconnaissance_and_footprinting.md)
 * [03-Scanning and Enumeration](03-scanning_and_enumeration.md)
+* [Enumeration](enumeration.md)
 * [04-Sniffing](04-sniffing.md)
 * [15-Evasion](15-evasion.md)
 * [05-System Hacking](05-system_hacking.md)
@@ -17,4 +18,6 @@
 * [13-Vulnerability Analysis](13-vulnerability-analysis.md)
 * [14-Steganography](14-steganography.md)
 * [DOS](dos.md)
+* [SQL Injection](sql-injection.md)
+* [Session Hijacking](session-hijacking.md)
 
