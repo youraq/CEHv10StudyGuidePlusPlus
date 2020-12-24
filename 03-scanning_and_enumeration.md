@@ -22,7 +22,8 @@
     * [SMTP \(Simple Mail Transfer Protocol\) Enumeration](03-scanning_and_enumeration.md#smtp-simple-mail-transfer-protocol-enumeration)
     * [NTP \(Network Time Protocol\) Enumeration](03-scanning_and_enumeration.md#ntp-network-time-protocol-enumeration)
     * [LDAP \(Lightweight Directory Access Protocol\) Enumeration](03-scanning_and_enumeration.md#ldap-lightweight-directory-access-protocol-enumeration)
-    * NFS Enumeration
+    * [NFS \(Network File System\) Enumeration](03-scanning_and_enumeration.md#nfs-network-file-system-enumeration)
+    * [SMB \(Server Message Block\) Enumeration](03-scanning_and_enumeration.md#smb-server-message-block-enumeration)
   * [Nmap](03-scanning_and_enumeration.md#nmap)
     * [Full connect scan](03-scanning_and_enumeration.md#full-connect-scan)
     * [TCP SYN scan \(Stealth scan\)](03-scanning_and_enumeration.md#tcp-syn-scan-stealth-scan)
