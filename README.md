@@ -2,12 +2,9 @@
 
 ![](https://github.githubassets.com/images/icons/emoji/unicode/1f4d3.png) Forked from [CEHv10StudyGuide](https://github.com/karsyboy/CEHv10_Ultimate_Study_Guide) 
 
-**Other sources** 
+\#Other sources 
 
-* [CEHv10\_Ultimate\_Study\_Guide](https://karsyboy.github.io/CEHv10_Ultimate_Study_Guide%29)
-* Official slides
-
-
+\[CEHv10\_Ultimate\_Study\_Guide\]\([https://karsyboy.github.io/CEHv10\_Ultimate\_Study\_Guide/](https://karsyboy.github.io/CEHv10_Ultimate_Study_Guide/)\)
 
 | CHAPTER | NAME | LINK |
 | :--- | :--- | :--- |
@@ -26,7 +23,7 @@
 | 13 | Pen Testing | [![](https://github.githubassets.com/images/icons/emoji/unicode/1f517.png)](13-pen_testing.md) |
 | 14 |  |  |
 
-Read it on GitBook [here](https://yassine-ouraq.gitbook.io/ceh-notes/)
+Read it on GitBook: [https://kevcui.gitbook.io/cehv10studyguideplusplus](https://kevcui.gitbook.io/cehv10studyguideplusplus)
 
 Enjoy your studies! ![](https://github.githubassets.com/images/icons/emoji/unicode/1f389.png)
 

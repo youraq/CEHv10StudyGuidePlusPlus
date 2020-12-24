@@ -22,6 +22,7 @@
     * [SMTP \(Simple Mail Transfer Protocol\) Enumeration](03-scanning_and_enumeration.md#smtp-simple-mail-transfer-protocol-enumeration)
     * [NTP \(Network Time Protocol\) Enumeration](03-scanning_and_enumeration.md#ntp-network-time-protocol-enumeration)
     * [LDAP \(Lightweight Directory Access Protocol\) Enumeration](03-scanning_and_enumeration.md#ldap-lightweight-directory-access-protocol-enumeration)
+    * NFS Enumeration
   * [Nmap](03-scanning_and_enumeration.md#nmap)
     * [Full connect scan](03-scanning_and_enumeration.md#full-connect-scan)
     * [TCP SYN scan \(Stealth scan\)](03-scanning_and_enumeration.md#tcp-syn-scan-stealth-scan)
@@ -385,6 +386,19 @@ UAPRSF
   * JXplorer
   * Lex \(The LDAP Explorer\)
   * LDAP Admin Tool
+
+#### NFS \(Network File System\) Enumeration
+
+*  NFS  is a protocol allowing remote access to a filesystem through the network. All Unix systems can work with this protocol.
+* Port 111 and 2049
+* showmount -e &lt;IPaddress&gt;
+  * Show the accessible NFS shares
+
+#### SMB \(Server Message Block\) Enumeration
+
+* Tools :
+  * smbclient
+  * smbmap
 
 ### Nmap
 
